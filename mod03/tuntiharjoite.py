@@ -6,5 +6,5 @@ if nimi == "Matti":
 else:
     annos = int(input("Montako annosta?"))
     annoshinta = float(annos) * 5.90
-    print("kokonaishinta on ", annos, 'euroa')
-print("seuraava, kiitos!")
+    print(f"kokonaishinta on {annoshinta:.2f}, euroa")
+    print("seuraava, kiitos!")
