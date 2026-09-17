@@ -27,3 +27,8 @@ Olisi voinut käyttää varmaan paremmin if, elif, else -funktiotia, koska nyt t
 
 tehtävä 4
 Karkausvuosi-asia selvitetty. Palaan satasen osuuksiin myöhemmin.
+
+## Moduuli 4
+tehtävä 1 - joutui tarkistamaan ehtoja moneen otteeseen, jotta sai homman toimimaan
+
+tehtävä 2 - tehty vasta muunnos.
