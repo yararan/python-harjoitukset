@@ -7,7 +7,11 @@ while True:
 
     if valinta == "Q":
             print("Poistutaan")
-            break
+            
+    if valinta not in ("A","B","C","D","Q"):
+         print("virheellinen valinta tässä kohtaa")
+         break
+         
 
     a = float(input("Anna ensimmäinen luku: "))
     b = float(input("Anna toinen luku: "))
@@ -21,9 +25,6 @@ while True:
         print(f"Lukujen {a} ja {b} tulo on {a*b}.")
     elif valinta == "D":
         print(f"Lukujen {a} ja {b} osamäärä on {a/b}.") 
-
-    else:
-        print("Virheellinen valinta")
             
 print("Ohjelma päättynyt")
 
