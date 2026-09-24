@@ -32,3 +32,7 @@ Karkausvuosi-asia selvitetty. Palaan satasen osuuksiin myöhemmin.
 tehtävä 1 - joutui tarkistamaan ehtoja moneen otteeseen, jotta sai homman toimimaan
 
 tehtävä 2 - tehty vasta muunnos.
+tehtävä 3
+tehtävä 4
+tehtävä 5 - 
+kaikki vielä kesken, aloitettu mutta ei valmista
