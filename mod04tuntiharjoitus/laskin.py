@@ -1,18 +1,20 @@
+##ensin tulostetaan ohjelman nimi
 print("---------TERVETULOA LASKINOHJELMAAN----------")
 
+#annetaan yksinkertainen toistorakenne ja kysytään mitä toimintoa käytetään
 while True:
     print("valitse mitä toimintoa haluat käyttää:")
     print("A: yhteenlasku, B: vähennyslasku, C: kertolasku, D: jakolasku, Q = Lopeta ohjelma")
     valinta = input("anna valinta ").upper()
-
+#valintojen ehdot
     if valinta == "Q":
             print("Poistutaan")
-            
+#Virheelliseen valintaan reagointi            
     if valinta not in ("A","B","C","D","Q"):
          print("virheellinen valinta tässä kohtaa")
          break
          
-
+#laskuosio
     a = float(input("Anna ensimmäinen luku: "))
     b = float(input("Anna toinen luku: "))
 
@@ -25,7 +27,7 @@ while True:
         print(f"Lukujen {a} ja {b} tulo on {a*b}.")
     elif valinta == "D":
         print(f"Lukujen {a} ja {b} osamäärä on {a/b}.") 
-            
+#kerrotaa, että ohjelma päättyy            
 print("Ohjelma päättynyt")
 
 #keksi parempi kohta ilmoittaa virheellisestä valinnasta
