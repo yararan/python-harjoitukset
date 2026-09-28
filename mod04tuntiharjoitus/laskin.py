@@ -1,11 +1,15 @@
 ##ensin tulostetaan ohjelman nimi
-print("---------TERVETULOA LASKINOHJELMAAN----------")
+print("\n---------TERVETULOA LASKINOHJELMAAN----------")
 
 #annetaan yksinkertainen toistorakenne ja kysytään mitä toimintoa käytetään
 while True:
-    print("valitse mitä toimintoa haluat käyttää:")
-    print("A: yhteenlasku, B: vähennyslasku, C: kertolasku, D: jakolasku, Q = Lopeta ohjelma")
+    #infotaan käyttäjälle miten ohjelma toimii print-tulosteilla
+    print("\nvalitse mitä toimintoa haluat käyttää:")
+    print("A: yhteenlasku\nB: vähennyslasku\nC: kertolasku\nD: jakolasku\nQ = Lopeta ohjelma\n")
+
+    #kysytään käyttäjältä mitä laskutustoimintoa käytetään
     valinta = input("anna valinta ").upper()
+
 #valintojen ehdot
     if valinta == "Q":
             print("Poistutaan")
@@ -27,7 +31,7 @@ while True:
         print(f"Lukujen {a} ja {b} tulo on {a*b}.")
     elif valinta == "D":
         print(f"Lukujen {a} ja {b} osamäärä on {a/b}.") 
-#kerrotaa, että ohjelma päättyy            
+#kerrotaan, että ohjelma päättyy. Ohjelma tullut ulos while-loopista            
 print("Ohjelma päättynyt")
 
 #keksi parempi kohta ilmoittaa virheellisestä valinnasta

@@ -4,3 +4,4 @@ while True:
         break
 if luku == (""):
    print("Homma loppui")
+   
